@@ -9,7 +9,7 @@
                 {{ props.instructions }}
                 <br>
                 <NuxtLink :to="props.video" v-if="props.video">
-                    Voir vidéo
+                    See video
                 </NuxtLink>
             </p>
         </article>
